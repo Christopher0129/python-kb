@@ -52,9 +52,28 @@ with Session(engine) as session:
 3. `Base.metadata.create_all(engine)`
 4. 用 `Session` 增删改查
 
+## 进一步会遇到什么
+
+- 关系映射：一对多、多对多
+- 查询优化：避免 N+1
+- 事务边界：统一提交、回滚和异常处理
+- 分页和筛选：列表接口的常见需求
+
+## 实战建议
+
+- 把模型定义、会话管理和业务查询分层
+- 请求生命周期内使用明确的 `Session`
+- 查询慢时先看 SQL 次数，再看单条 SQL
+
 ## 提醒
 
 - 新项目建议按 SQLAlchemy 2.x 风格写法组织代码
 - Web 项目里通常每次请求使用一次独立 `Session`
+
+## 关联阅读
+
+- [数据库开发专题](../topics/database-development.md)
+- [SQLAlchemy 进阶专题](../topics/sqlalchemy-advanced.md)
+- [SQL 优化专题](../topics/sql-optimization.md)
 
 返回 [索引](../README.md)

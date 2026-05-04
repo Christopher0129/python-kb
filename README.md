@@ -34,6 +34,13 @@
 - [实时通信专题](./topics/realtime-communication.md)
 - [Linux 与 Python 运维专题](./topics/linux-python-ops.md)
 - [SQL 优化专题](./topics/sql-optimization.md)
+- [浏览器自动化专题](./topics/browser-automation.md)
+- [任务调度专题](./topics/task-scheduling.md)
+- [消息系统专题](./topics/message-systems.md)
+- [性能基准专题](./topics/benchmarking.md)
+- [测试进阶专题](./topics/testing-advanced.md)
+- [SQLAlchemy 进阶专题](./topics/sqlalchemy-advanced.md)
+- [可观测性专题](./topics/observability.md)
 - [安全基础专题](./topics/security-basics.md)
 - [Excel 自动化专题](./topics/excel-automation.md)
 - [数据管道专题](./topics/data-pipelines.md)
@@ -59,6 +66,8 @@
 | 学配置、发布和部署 | [导入、包与虚拟环境](./basics/imports-venv.md) → [配置管理专题](./topics/config-management.md) → [打包与发布专题](./topics/packaging-release.md) → [部署与运维专题](./topics/deployment-operations.md) |
 | 建立团队工程质量约束 | [typing 与 dataclasses](./stdlib/typing_dataclasses.md) → [mypy](./third_party/mypy.md) → [ruff](./third_party/ruff.md) → [代码质量专题](./topics/code-quality.md) → [CI/CD 专题](./topics/ci-cd.md) |
 | 做缓存、后台任务和实时系统 | [queue](./stdlib/queue.md) → [redis-py](./third_party/redis.md) → [celery](./third_party/celery.md) → [websockets](./third_party/websockets.md) → [缓存与队列专题](./topics/cache-queues.md) |
+| 做浏览器自动化与端到端测试 | [Playwright](./third_party/playwright.md) → [浏览器自动化专题](./topics/browser-automation.md) → [测试进阶专题](./topics/testing-advanced.md) |
+| 做调度、流处理和服务观测 | [APScheduler](./third_party/apscheduler.md) → [kafka-python](./third_party/kafka_python.md) → [消息系统专题](./topics/message-systems.md) → [可观测性专题](./topics/observability.md) |
 
 ## 按任务查找
 
@@ -150,6 +159,14 @@
 - `ruff`：lint 和格式化
 - `pre-commit`：提交前自动检查
 - 系统整理见 [代码质量专题](./topics/code-quality.md) 和 [CI/CD 专题](./topics/ci-cd.md)
+
+### 调度、消息和观测
+
+- `APScheduler`：定时任务
+- `Celery`：后台任务
+- `Kafka`：事件流和消息流
+- `logging` / `traceback`：日志和错误堆栈
+- 系统整理见 [任务调度专题](./topics/task-scheduling.md)、[消息系统专题](./topics/message-systems.md)、[可观测性专题](./topics/observability.md)
 
 ### 测试、调试和排错
 
@@ -262,9 +279,14 @@
 - [ruff：lint 与格式化](./third_party/ruff.md)
 - [pre-commit：提交前检查](./third_party/pre_commit.md)
 - [pydantic：数据校验与建模](./third_party/pydantic.md)
+- [pydantic-settings：结构化配置](./third_party/pydantic_settings.md)
 - [redis-py：缓存与队列基础](./third_party/redis.md)
 - [celery：后台任务](./third_party/celery.md)
+- [APScheduler：定时任务调度](./third_party/apscheduler.md)
+- [kafka-python：消息系统客户端](./third_party/kafka_python.md)
 - [websockets：WebSocket 实时通信](./third_party/websockets.md)
+- [Playwright：浏览器自动化](./third_party/playwright.md)
+- [pytest-benchmark：性能基准测试](./third_party/pytest_benchmark.md)
 - [grpcio：RPC 通信](./third_party/grpc.md)
 - [gunicorn 与 uvicorn：服务部署入口](./third_party/gunicorn_uvicorn.md)
 - [Alembic：数据库迁移](./third_party/alembic.md)
@@ -311,6 +333,13 @@
 - [实时通信专题](./topics/realtime-communication.md)
 - [Linux 与 Python 运维专题](./topics/linux-python-ops.md)
 - [SQL 优化专题](./topics/sql-optimization.md)
+- [浏览器自动化专题](./topics/browser-automation.md)
+- [任务调度专题](./topics/task-scheduling.md)
+- [消息系统专题](./topics/message-systems.md)
+- [性能基准专题](./topics/benchmarking.md)
+- [测试进阶专题](./topics/testing-advanced.md)
+- [SQLAlchemy 进阶专题](./topics/sqlalchemy-advanced.md)
+- [可观测性专题](./topics/observability.md)
 - [安全基础专题](./topics/security-basics.md)
 - [Excel 自动化专题](./topics/excel-automation.md)
 - [数据管道专题](./topics/data-pipelines.md)

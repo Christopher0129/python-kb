@@ -47,6 +47,8 @@ uvicorn app:app --reload
 | `BaseModel` | 定义请求和响应数据结构 |
 | `Query()` / `Path()` | 声明查询参数和路径参数 |
 | `Depends()` | 依赖注入 |
+| `BackgroundTasks` | 后台任务 |
+| `middleware` | 请求中间件 |
 
 ## 适用场景
 
@@ -60,6 +62,7 @@ uvicorn app:app --reload
 - 已经大量使用类型标注的项目更容易发挥它的优势
 - 简单小工具可以继续用 Flask；接口规模和约束变复杂时再考虑 FastAPI
 - 数据校验、响应模型、依赖注入最好尽早规范起来
+- 进阶项目要尽早规划中间件、认证、生命周期和健康检查
 
 ## 关联阅读
 
@@ -67,5 +70,8 @@ uvicorn app:app --reload
 - [typing 与 dataclasses](../stdlib/typing_dataclasses.md)
 - [asyncio](../stdlib/asyncio.md)
 - [项目结构专题](../topics/project-structure.md)
+- [FastAPI 进阶专题](../topics/fastapi-advanced.md)
+- [认证与授权专题](../topics/auth-authorization.md)
+- [服务中间件专题](../topics/service-middleware.md)
 
 返回 [索引](../README.md)

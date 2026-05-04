@@ -41,6 +41,13 @@
 - [测试进阶专题](./topics/testing-advanced.md)
 - [SQLAlchemy 进阶专题](./topics/sqlalchemy-advanced.md)
 - [可观测性专题](./topics/observability.md)
+- [FastAPI 进阶专题](./topics/fastapi-advanced.md)
+- [认证与授权专题](./topics/auth-authorization.md)
+- [服务中间件专题](./topics/service-middleware.md)
+- [健康检查与指标专题](./topics/health-metrics.md)
+- [端到端测试专题](./topics/end-to-end-testing.md)
+- [数据仓库与 ETL 专题](./topics/data-warehouse-etl.md)
+- [向量检索专题](./topics/vector-retrieval.md)
 - [安全基础专题](./topics/security-basics.md)
 - [Excel 自动化专题](./topics/excel-automation.md)
 - [数据管道专题](./topics/data-pipelines.md)
@@ -68,6 +75,8 @@
 | 做缓存、后台任务和实时系统 | [queue](./stdlib/queue.md) → [redis-py](./third_party/redis.md) → [celery](./third_party/celery.md) → [websockets](./third_party/websockets.md) → [缓存与队列专题](./topics/cache-queues.md) |
 | 做浏览器自动化与端到端测试 | [Playwright](./third_party/playwright.md) → [浏览器自动化专题](./topics/browser-automation.md) → [测试进阶专题](./topics/testing-advanced.md) |
 | 做调度、流处理和服务观测 | [APScheduler](./third_party/apscheduler.md) → [kafka-python](./third_party/kafka_python.md) → [消息系统专题](./topics/message-systems.md) → [可观测性专题](./topics/observability.md) |
+| 做服务治理和生产可观测 API | [FastAPI 入门](./frameworks/fastapi.md) → [FastAPI 进阶专题](./topics/fastapi-advanced.md) → [认证与授权专题](./topics/auth-authorization.md) → [健康检查与指标专题](./topics/health-metrics.md) |
+| 做数据平台和语义检索 | [数据管道专题](./topics/data-pipelines.md) → [数据仓库与 ETL 专题](./topics/data-warehouse-etl.md) → [向量检索专题](./topics/vector-retrieval.md) |
 
 ## 按任务查找
 
@@ -167,6 +176,14 @@
 - `Kafka`：事件流和消息流
 - `logging` / `traceback`：日志和错误堆栈
 - 系统整理见 [任务调度专题](./topics/task-scheduling.md)、[消息系统专题](./topics/message-systems.md)、[可观测性专题](./topics/observability.md)
+
+### 服务治理与 API 生产化
+
+- `FastAPI`：类型化 API
+- `Depends` / 中间件：依赖注入与统一拦截
+- `prometheus-client`：指标暴露
+- `structlog`：结构化日志
+- 系统整理见 [FastAPI 进阶专题](./topics/fastapi-advanced.md)、[认证与授权专题](./topics/auth-authorization.md)、[健康检查与指标专题](./topics/health-metrics.md)
 
 ### 测试、调试和排错
 
@@ -286,9 +303,15 @@
 - [kafka-python：消息系统客户端](./third_party/kafka_python.md)
 - [websockets：WebSocket 实时通信](./third_party/websockets.md)
 - [Playwright：浏览器自动化](./third_party/playwright.md)
+- [Selenium：浏览器自动化补充](./third_party/selenium.md)
+- [testcontainers：容器化测试依赖](./third_party/testcontainers.md)
 - [pytest-benchmark：性能基准测试](./third_party/pytest_benchmark.md)
 - [grpcio：RPC 通信](./third_party/grpc.md)
 - [gunicorn 与 uvicorn：服务部署入口](./third_party/gunicorn_uvicorn.md)
+- [structlog：结构化日志](./third_party/structlog.md)
+- [prometheus-client：服务指标](./third_party/prometheus_client.md)
+- [Airflow：任务编排](./third_party/airflow.md)
+- [qdrant-client：向量检索客户端](./third_party/qdrant_client.md)
 - [Alembic：数据库迁移](./third_party/alembic.md)
 
 ## 专题与扩展
@@ -340,6 +363,13 @@
 - [测试进阶专题](./topics/testing-advanced.md)
 - [SQLAlchemy 进阶专题](./topics/sqlalchemy-advanced.md)
 - [可观测性专题](./topics/observability.md)
+- [FastAPI 进阶专题](./topics/fastapi-advanced.md)
+- [认证与授权专题](./topics/auth-authorization.md)
+- [服务中间件专题](./topics/service-middleware.md)
+- [健康检查与指标专题](./topics/health-metrics.md)
+- [端到端测试专题](./topics/end-to-end-testing.md)
+- [数据仓库与 ETL 专题](./topics/data-warehouse-etl.md)
+- [向量检索专题](./topics/vector-retrieval.md)
 - [安全基础专题](./topics/security-basics.md)
 - [Excel 自动化专题](./topics/excel-automation.md)
 - [数据管道专题](./topics/data-pipelines.md)

@@ -21,6 +21,7 @@
 ## 关联阅读
 
 - [FastAPI 入门](../frameworks/fastapi.md)
+- [Starlette](../third_party/starlette.md)
 - [认证与授权专题](./auth-authorization.md)
 - [服务中间件专题](./service-middleware.md)
 - [健康检查与指标专题](./health-metrics.md)
@@ -33,7 +34,9 @@
 - [契约测试专题](./contract-testing.md)
 - [Webhooks 专题](./webhooks.md)
 - [特性开关专题](./feature-flags.md)
+- [API 网关模式专题](./api-gateway-patterns.md)
 - [模型服务专题](./model-serving.md)
+- [连接池专题](./connection-pooling.md)
 - [异步测试专题](./async-testing.md)
 
 返回 [索引](../README.md)

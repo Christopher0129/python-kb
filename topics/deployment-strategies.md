@@ -24,5 +24,7 @@
 - [告警与 SLO 专题](./alerting-slos.md)
 - [特性开关专题](./feature-flags.md)
 - [API 版本治理专题](./api-versioning.md)
+- [渐进式交付专题](./progressive-delivery.md)
+- [事故响应专题](./incident-response.md)
 
 返回 [索引](../README.md)

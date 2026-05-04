@@ -31,5 +31,7 @@
 - [断路器与隔离专题](./circuit-breakers-bulkheads.md)
 - [发布策略专题](./deployment-strategies.md)
 - [服务网格专题](./service-mesh.md)
+- [事故响应专题](./incident-response.md)
+- [审计日志专题](./audit-logging.md)
 
 返回 [索引](../README.md)

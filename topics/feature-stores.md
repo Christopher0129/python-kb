@@ -25,5 +25,7 @@
 - [实验跟踪专题](./experiment-tracking.md)
 - [模型注册专题](./model-registry.md)
 - [特征工程专题](./feature-engineering.md)
+- [特征服务专题](./feature-serving.md)
+- [在线离线一致性专题](./online-offline-consistency.md)
 
 返回 [索引](../README.md)

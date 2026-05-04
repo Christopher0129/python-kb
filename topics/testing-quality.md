@@ -71,9 +71,13 @@ def test_flag(value, expected):
 ## 关联阅读
 
 - [pytest](../third_party/pytest.md)
+- [coverage.py](../third_party/coverage.md)
+- [pytest-cov](../third_party/pytest_cov.md)
 - [unittest](../stdlib/unittest.md)
 - [unittest.mock](../stdlib/unittest_mock.md)
 - [接口测试专题](./api-testing.md)
+- [测试金字塔与切片专题](./test-pyramids-and-slicing.md)
+- [API Fuzzing 专题](./api-fuzzing.md)
 - [性能与调试专题](./performance-debugging.md)
 
 返回 [索引](../README.md)

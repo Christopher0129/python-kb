@@ -26,6 +26,8 @@
 ## 关联阅读
 
 - [respx](../third_party/respx.md)
+- [VCR.py](../third_party/vcrpy.md)
+- [httpx](../third_party/httpx.md)
 - [接口测试专题](./api-testing.md)
 - [Webhooks 专题](./webhooks.md)
 

@@ -22,6 +22,7 @@ env/
 
 # Obsidian personal workspace state
 .obsidian/cache/
+.obsidian/graph.json
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
 .trash/

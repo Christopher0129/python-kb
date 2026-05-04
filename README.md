@@ -9,7 +9,9 @@
 - [异常类型合集](./basics/exception-types.md)
 - [常见 Python 实战脚本](./examples/common_cases.md)
 - [算法与数据结构专题](./topics/algorithms-data-structures.md)
+- [数据可视化专题](./topics/data-visualization.md)
 - [文件处理专题](./topics/file-processing.md)
+- [接口测试专题](./topics/api-testing.md)
 - [网络编程专题](./topics/network-programming.md)
 
 ## 学习路线
@@ -22,8 +24,8 @@
 | 做网络请求和接口调用 | [urllib](./stdlib/urllib.md) → [requests](./third_party/requests.md) → [socket](./stdlib/socket.md) → [网络编程专题](./topics/network-programming.md) |
 | 补测试、调试和排错能力 | [unittest](./stdlib/unittest.md) → [pdb](./stdlib/pdb.md) → [异常处理](./basics/exceptions.md) → [异常类型合集](./basics/exception-types.md) |
 | 补算法、数据结构和刷题基础 | [算法与数据结构专题](./topics/algorithms-data-structures.md) → [collections](./stdlib/collections.md) → [itertools 与 functools](./stdlib/itertools_functools.md) |
-| 做 Excel、图表和数据汇报 | [pandas](./third_party/pandas.md) → [openpyxl](./third_party/openpyxl.md) → [matplotlib](./third_party/matplotlib.md) |
-| 进入现代 Python 测试流 | [pytest](./third_party/pytest.md) → [unittest](./stdlib/unittest.md) → [异常类型合集](./basics/exception-types.md) |
+| 做 Excel、图表和数据汇报 | [pandas](./third_party/pandas.md) → [openpyxl](./third_party/openpyxl.md) → [matplotlib](./third_party/matplotlib.md) → [数据可视化专题](./topics/data-visualization.md) |
+| 进入现代 Python 测试流 | [pytest](./third_party/pytest.md) → [unittest](./stdlib/unittest.md) → [异常类型合集](./basics/exception-types.md) → [接口测试专题](./topics/api-testing.md) |
 | 进入 Web 后端开发 | [Flask 入门](./frameworks/flask.md) 或 [Django 入门](./frameworks/django.md) → [SQLAlchemy 2.x 基础](./database/sqlalchemy.md) |
 
 ## 按任务查找
@@ -80,6 +82,7 @@
 - `pandas`：表格数据清洗和聚合
 - `matplotlib`：基础可视化和折线柱状图
 - `openpyxl`：读写 Excel 文件、样式、工作表
+- 系统整理见 [数据可视化专题](./topics/data-visualization.md)
 
 ### 算法、数据结构和刷题
 
@@ -97,6 +100,7 @@
 - `pdb`：断点调试
 - [异常处理](./basics/exceptions.md)：异常写法和捕获方式
 - [异常类型合集](./basics/exception-types.md)：按报错名定位原因
+- 接口测试串联见 [接口测试专题](./topics/api-testing.md)
 
 ## 标准库总览
 
@@ -181,7 +185,9 @@
 ### 场景专题
 
 - [算法与数据结构专题](./topics/algorithms-data-structures.md)
+- [数据可视化专题](./topics/data-visualization.md)
 - [文件处理专题](./topics/file-processing.md)
+- [接口测试专题](./topics/api-testing.md)
 - [网络编程专题](./topics/network-programming.md)
 
 ### Web 和数据库

@@ -29,5 +29,7 @@
 - [Consumer Group 运维专题](./consumer-group-operations.md)
 - [RabbitMQ 专题](./rabbitmq-messaging.md)
 - [NATS 专题](./nats-messaging.md)
+- [Kubernetes 自动扩缩容专题](./kubernetes-autoscaling.md)
+- [Kubernetes 滚动交付专题](./kubernetes-rolling-delivery.md)
 
 返回 [索引](../README.md)

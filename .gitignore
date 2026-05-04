@@ -1,0 +1,27 @@
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python cache and local env
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Local runtime files
+*.log
+*.tmp
+*.temp
+
+# Obsidian personal workspace state
+.obsidian/cache/
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.trash/

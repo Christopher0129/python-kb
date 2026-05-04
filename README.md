@@ -87,6 +87,11 @@
 - [异常处理](./basics/exceptions.md)
 - [异常类型合集](./basics/exception-types.md)
 
+### 场景专题
+
+- [文件处理专题](./topics/file-processing.md)
+- [网络编程专题](./topics/network-programming.md)
+
 ### Web 框架
 
 - [Flask 入门](./frameworks/flask.md)
@@ -124,6 +129,7 @@
 - `glob`：按通配符批量找文件
 - `tempfile`：生成安全的临时文件
 - `shutil`：复制、移动、打包
+- 进阶串联见 [文件处理专题](./topics/file-processing.md)
 
 ### 调试与测试
 
@@ -143,6 +149,7 @@
 - `http.server`：快速起一个本地文件服务
 - `socket`：TCP/UDP 通信
 - `email`：构造邮件正文和附件
+- 进阶串联见 [网络编程专题](./topics/network-programming.md)
 
 ### 数据存储与安全
 
@@ -161,6 +168,7 @@
 5. 数据处理时补 [csv](./stdlib/csv.md)、[pickle](./stdlib/pickle.md)、[sqlite3](./stdlib/sqlite3.md)、[hashlib](./stdlib/hashlib.md)
 6. 按项目需要学习 [urllib](./stdlib/urllib.md)、[http.server](./stdlib/http_server.md)、[concurrent.futures](./stdlib/concurrent_futures.md)、[multiprocessing](./stdlib/multiprocessing.md)
 7. Web 项目再进入 [Flask](./frameworks/flask.md)、[Django](./frameworks/django.md)
+8. 场景串联时读 [文件处理专题](./topics/file-processing.md) 和 [网络编程专题](./topics/network-programming.md)
 
 ## 维护建议
 

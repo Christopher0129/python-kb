@@ -56,6 +56,15 @@
 - [分析工程专题](./topics/analytics-engineering.md)
 - [Token 认证专题](./topics/token-authentication.md)
 - [数据质量测试专题](./topics/data-quality-testing.md)
+- [OAuth2 与 OpenID Connect 专题](./topics/oauth2-oidc.md)
+- [RBAC 与 ABAC 专题](./topics/rbac-abac.md)
+- [FastAPI WebSocket 与 SSE 专题](./topics/fastapi-websocket-sse.md)
+- [FastAPI 生命周期与后台任务专题](./topics/fastapi-lifespan-background.md)
+- [Parquet 与 Arrow 专题](./topics/parquet-arrow.md)
+- [Lakehouse 表格式专题](./topics/table-formats-lakehouse.md)
+- [RAG 流水线专题](./topics/rag-pipelines.md)
+- [Kafka 重试与 DLQ 专题](./topics/kafka-retry-dlq.md)
+- [告警与 SLO 专题](./topics/alerting-slos.md)
 - [安全基础专题](./topics/security-basics.md)
 - [Excel 自动化专题](./topics/excel-automation.md)
 - [数据管道专题](./topics/data-pipelines.md)
@@ -87,6 +96,8 @@
 | 做数据平台和语义检索 | [数据管道专题](./topics/data-pipelines.md) → [数据仓库与 ETL 专题](./topics/data-warehouse-etl.md) → [向量检索专题](./topics/vector-retrieval.md) |
 | 做高质量测试体系 | [测试与质量专题](./topics/testing-quality.md) → [测试进阶专题](./topics/testing-advanced.md) → [属性测试专题](./topics/property-based-testing.md) → [并行测试专题](./topics/parallel-testing.md) |
 | 做现代分析工程与列式分析 | [Polars](./third_party/polars.md) → [DuckDB](./third_party/duckdb.md) → [列式数据处理专题](./topics/columnar-data-processing.md) → [分析工程专题](./topics/analytics-engineering.md) |
+| 做现代认证与权限治理 | [Token 认证专题](./topics/token-authentication.md) → [OAuth2 与 OpenID Connect 专题](./topics/oauth2-oidc.md) → [RBAC 与 ABAC 专题](./topics/rbac-abac.md) |
+| 做 RAG 和向量检索应用 | [向量检索专题](./topics/vector-retrieval.md) → [RAG 流水线专题](./topics/rag-pipelines.md) → [LangChain](./third_party/langchain.md) 或 [LlamaIndex](./third_party/llamaindex.md) |
 
 ## 按任务查找
 
@@ -195,6 +206,13 @@
 - `structlog`：结构化日志
 - 系统整理见 [FastAPI 进阶专题](./topics/fastapi-advanced.md)、[认证与授权专题](./topics/auth-authorization.md)、[健康检查与指标专题](./topics/health-metrics.md)
 
+### 身份、权限与安全边界
+
+- `PyJWT`：JWT 令牌处理
+- OAuth2 / OIDC：统一身份与授权协议
+- RBAC / ABAC：权限模型设计
+- 系统整理见 [Token 认证专题](./topics/token-authentication.md)、[OAuth2 与 OpenID Connect 专题](./topics/oauth2-oidc.md)、[RBAC 与 ABAC 专题](./topics/rbac-abac.md)
+
 ### 数据工程与分析平台
 
 - `Polars` / `DuckDB`：列式本地分析
@@ -202,6 +220,14 @@
 - `Airflow`：任务编排
 - `qdrant-client`：向量检索客户端
 - 系统整理见 [数据仓库与 ETL 专题](./topics/data-warehouse-etl.md)、[列式数据处理专题](./topics/columnar-data-processing.md)、[分析工程专题](./topics/analytics-engineering.md)
+
+### RAG 与向量检索
+
+- `FAISS`：本地向量检索原型
+- `Qdrant` / `Milvus`：服务化向量存储
+- `LangChain` / `LlamaIndex`：RAG 编排
+- `PyArrow` / Parquet：文档和数据管道中的列式交换
+- 系统整理见 [向量检索专题](./topics/vector-retrieval.md)、[RAG 流水线专题](./topics/rag-pipelines.md)、[Parquet 与 Arrow 专题](./topics/parquet-arrow.md)
 
 ### 测试、调试和排错
 
@@ -334,9 +360,14 @@
 - [sentry-sdk：错误监控](./third_party/sentry_sdk.md)
 - [Airflow：任务编排](./third_party/airflow.md)
 - [PyJWT：JWT 令牌处理](./third_party/pyjwt.md)
+- [PyArrow：Arrow 与 Parquet](./third_party/pyarrow.md)
 - [Polars：高性能 DataFrame](./third_party/polars.md)
 - [DuckDB：本地分析型 SQL](./third_party/duckdb.md)
 - [dbt：分析工程](./third_party/dbt.md)
+- [FAISS：本地向量检索](./third_party/faiss.md)
+- [pymilvus：Milvus 客户端](./third_party/pymilvus.md)
+- [LangChain：LLM 应用编排](./third_party/langchain.md)
+- [LlamaIndex：文档检索编排](./third_party/llamaindex.md)
 - [qdrant-client：向量检索客户端](./third_party/qdrant_client.md)
 - [Alembic：数据库迁移](./third_party/alembic.md)
 
@@ -404,6 +435,15 @@
 - [分析工程专题](./topics/analytics-engineering.md)
 - [Token 认证专题](./topics/token-authentication.md)
 - [数据质量测试专题](./topics/data-quality-testing.md)
+- [OAuth2 与 OpenID Connect 专题](./topics/oauth2-oidc.md)
+- [RBAC 与 ABAC 专题](./topics/rbac-abac.md)
+- [FastAPI WebSocket 与 SSE 专题](./topics/fastapi-websocket-sse.md)
+- [FastAPI 生命周期与后台任务专题](./topics/fastapi-lifespan-background.md)
+- [Parquet 与 Arrow 专题](./topics/parquet-arrow.md)
+- [Lakehouse 表格式专题](./topics/table-formats-lakehouse.md)
+- [RAG 流水线专题](./topics/rag-pipelines.md)
+- [Kafka 重试与 DLQ 专题](./topics/kafka-retry-dlq.md)
+- [告警与 SLO 专题](./topics/alerting-slos.md)
 - [安全基础专题](./topics/security-basics.md)
 - [Excel 自动化专题](./topics/excel-automation.md)
 - [数据管道专题](./topics/data-pipelines.md)

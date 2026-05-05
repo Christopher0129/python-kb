@@ -92,5 +92,12 @@ with Session(engine) as session:
 - [MySQL 开发专题](./mysql-development.md)
 - [PostgreSQL 开发专题](./postgresql-development.md)
 - [MongoDB 开发专题](./mongodb-development.md)
+- [MySQL 查询计划专题](./mysql-query-plans.md)
+- [MySQL 锁冲突与争用专题](./mysql-locking-contention.md)
+- [MySQL 在线改表专题](./mysql-online-schema-change.md)
+- [MongoDB 模式设计专题](./mongodb-schema-design.md)
+- [MongoDB 索引与聚合专题](./mongodb-indexing-aggregation.md)
+- [MongoDB Change Streams 专题](./mongodb-change-streams.md)
+- [Redis 高级专题](./redis-advanced.md)
 
 返回 [索引](../README.md)

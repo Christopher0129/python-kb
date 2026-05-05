@@ -22,6 +22,7 @@
 - [pika](../third_party/pika.md)
 - [nats-py](../third_party/nats_py.md)
 - [缓存与队列专题](./cache-queues.md)
+- [Redis Streams 消费专题](./redis-streams-consumers.md)
 - [流处理专题](./stream-processing.md)
 - [事件驱动架构专题](./event-driven-architecture.md)
 - [Outbox / Inbox 模式专题](./outbox-inbox-patterns.md)
@@ -29,6 +30,7 @@
 - [Consumer Group 运维专题](./consumer-group-operations.md)
 - [RabbitMQ 专题](./rabbitmq-messaging.md)
 - [NATS 专题](./nats-messaging.md)
+- [Redis 分布式锁专题](./redis-distributed-locks.md)
 - [Kubernetes 自动扩缩容专题](./kubernetes-autoscaling.md)
 - [Kubernetes 滚动交付专题](./kubernetes-rolling-delivery.md)
 

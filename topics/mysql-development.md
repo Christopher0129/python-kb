@@ -29,6 +29,9 @@
 - [mysqlclient](../third_party/mysqlclient.md)
 - [数据库开发专题](./database-development.md)
 - [SQL 优化专题](./sql-optimization.md)
+- [MySQL 查询计划专题](./mysql-query-plans.md)
+- [MySQL 锁冲突与争用专题](./mysql-locking-contention.md)
+- [MySQL 在线改表专题](./mysql-online-schema-change.md)
 - [数据仓库与 ETL 专题](./data-warehouse-etl.md)
 
 返回 [索引](../README.md)

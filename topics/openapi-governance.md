@@ -26,6 +26,9 @@
 ## 关联阅读
 
 - [API 版本治理专题](./api-versioning.md)
+- [API 错误契约专题](./api-error-contracts.md)
+- [API 分页与过滤专题](./api-pagination-filtering.md)
+- [OpenAPI SDK 生成专题](./openapi-sdk-generation.md)
 - [契约测试专题](./contract-testing.md)
 - [Schemathesis](../third_party/schemathesis.md)
 

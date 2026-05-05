@@ -25,6 +25,9 @@
 - [queue](../stdlib/queue.md)
 - [异步编程专题](./async-programming.md)
 - [Redis 高级专题](./redis-advanced.md)
+- [Redis Streams 消费专题](./redis-streams-consumers.md)
+- [Redis 分布式锁专题](./redis-distributed-locks.md)
+- [Redis 缓存失效策略专题](./redis-cache-invalidation.md)
 - [任务队列架构专题](./task-queue-architectures.md)
 - [缓存稳定性专题](./cache-stability-patterns.md)
 

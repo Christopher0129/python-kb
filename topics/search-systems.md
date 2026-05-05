@@ -30,6 +30,7 @@
 - [搜索分析指标专题](./search-analytics-metrics.md)
 - [搜索 Query Understanding 专题](./search-query-understanding.md)
 - [搜索排序信号专题](./search-ranking-signals.md)
+- [搜索 Query Rules 专题](./search-query-rules.md)
 - [搜索过滤设计专题](./search-filter-design.md)
 - [搜索多租户隔离专题](./search-multitenancy.md)
 - [搜索去重专题](./search-deduplication.md)
@@ -42,6 +43,8 @@
 - [搜索诊断专题](./search-debugging.md)
 - [搜索实验专题](./search-experiments.md)
 - [搜索容量规划专题](./search-capacity-planning.md)
+- [搜索召回评测专题](./search-recall-evaluation.md)
+- [搜索成本治理专题](./search-cost-governance.md)
 - [RAG 流水线专题](./rag-pipelines.md)
 
 返回 [索引](../README.md)

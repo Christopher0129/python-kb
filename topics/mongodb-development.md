@@ -16,5 +16,8 @@
 - [Motor](../third_party/motor.md)
 - [Beanie](../third_party/beanie.md)
 - [数据库开发专题](./database-development.md)
+- [MongoDB 模式设计专题](./mongodb-schema-design.md)
+- [MongoDB 索引与聚合专题](./mongodb-indexing-aggregation.md)
+- [MongoDB Change Streams 专题](./mongodb-change-streams.md)
 
 返回 [索引](../README.md)

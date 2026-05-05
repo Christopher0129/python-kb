@@ -39,6 +39,7 @@
 - [项目结构专题](./project-structure.md)
 - [运行时配置专题](./runtime-configuration.md)
 - [配置结构校验专题](./config-schema-validation.md)
+- [配置变更治理专题](./config-change-governance.md)
 - [配置漂移检测专题](./config-drift-detection.md)
 - [隐私治理专题](./privacy-governance.md)
 

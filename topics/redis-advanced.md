@@ -30,5 +30,8 @@
 - [缓存与队列专题](./cache-queues.md)
 - [消息系统专题](./message-systems.md)
 - [任务队列架构专题](./task-queue-architectures.md)
+- [Redis Streams 消费专题](./redis-streams-consumers.md)
+- [Redis 分布式锁专题](./redis-distributed-locks.md)
+- [Redis 缓存失效策略专题](./redis-cache-invalidation.md)
 
 返回 [索引](../README.md)

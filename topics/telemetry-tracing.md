@@ -20,5 +20,8 @@
 - [OpenTelemetry](../third_party/opentelemetry.md)
 - [prometheus-client](../third_party/prometheus_client.md)
 - [可观测性专题](./observability.md)
+- [观测埋点专题](./observability-instrumentation.md)
+- [日志关联与结构化日志专题](./log-correlation-structured-logging.md)
+- [指标基数治理专题](./metrics-cardinality-governance.md)
 
 返回 [索引](../README.md)

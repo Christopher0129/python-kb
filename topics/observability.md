@@ -24,6 +24,9 @@
 
 - [logging](../stdlib/logging.md)
 - [traceback](../stdlib/traceback.md)
+- [观测埋点专题](./observability-instrumentation.md)
+- [日志关联与结构化日志专题](./log-correlation-structured-logging.md)
+- [指标基数治理专题](./metrics-cardinality-governance.md)
 - [性能与调试专题](./performance-debugging.md)
 - [部署与运维专题](./deployment-operations.md)
 - [限流专题](./rate-limiting.md)

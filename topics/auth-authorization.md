@@ -26,6 +26,7 @@
 - [Token 认证专题](./token-authentication.md)
 - [OAuth2 与 OpenID Connect 专题](./oauth2-oidc.md)
 - [RBAC 与 ABAC 专题](./rbac-abac.md)
+- [风险认证专题](./risk-based-authentication.md)
 - [API Key 治理专题](./api-key-management.md)
 - [服务间认证专题](./service-to-service-auth.md)
 - [策略引擎专题](./policy-engines.md)

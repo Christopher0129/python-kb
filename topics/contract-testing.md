@@ -30,6 +30,8 @@
 - [Pact](../third_party/pact.md)
 - [接口测试专题](./api-testing.md)
 - [API 版本治理专题](./api-versioning.md)
+- [API 错误契约专题](./api-error-contracts.md)
+- [OpenAPI SDK 生成专题](./openapi-sdk-generation.md)
 - [FastAPI 进阶专题](./fastapi-advanced.md)
 - [消费者驱动契约专题](./consumer-driven-contracts.md)
 

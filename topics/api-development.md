@@ -46,6 +46,8 @@ app/
 - [SQLAlchemy 2.x 基础](../database/sqlalchemy.md)
 - [接口测试专题](./api-testing.md)
 - [API 版本治理专题](./api-versioning.md)
+- [API 分页与过滤专题](./api-pagination-filtering.md)
+- [API 错误契约专题](./api-error-contracts.md)
 - [幂等与重试专题](./idempotency-retries.md)
 - [契约测试专题](./contract-testing.md)
 - [gRPC 进阶专题](./grpc-advanced.md)

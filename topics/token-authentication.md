@@ -17,6 +17,8 @@
 
 - [PyJWT](../third_party/pyjwt.md)
 - [认证与授权专题](./auth-authorization.md)
+- [Token 生命周期专题](./token-lifecycle.md)
+- [Token 吊销专题](./token-revocation.md)
 - [安全基础专题](./security-basics.md)
 
 返回 [索引](../README.md)

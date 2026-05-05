@@ -27,6 +27,7 @@
 
 - [API 网关模式专题](./api-gateway-patterns.md)
 - [Kubernetes 运维专题](./kubernetes-operations.md)
+- [Kubernetes Ingress 灰度专题](./kubernetes-ingress-canary.md)
 - [服务网格专题](./service-mesh.md)
 - [健康检查与指标专题](./health-metrics.md)
 - [HTTP/2 与流式响应专题](./http2-and-streaming.md)

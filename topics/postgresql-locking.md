@@ -26,6 +26,8 @@
 ## 关联阅读
 
 - [PostgreSQL 开发专题](./postgresql-development.md)
+- [PostgreSQL 死锁排障专题](./postgresql-deadlock-troubleshooting.md)
+- [PostgreSQL 长事务专题](./postgresql-long-transactions.md)
 - [事务与隔离级别专题](./transaction-isolation.md)
 - [查询计划分析专题](./query-plan-analysis.md)
 - [连接池专题](./connection-pooling.md)

@@ -27,6 +27,7 @@
 
 - [Kubernetes 运维专题](./kubernetes-operations.md)
 - [Kubernetes 自动扩缩容专题](./kubernetes-autoscaling.md)
+- [Kubernetes 驱逐与抢占专题](./kubernetes-evictions.md)
 - [容量规划专题](./capacity-planning.md)
 - [性能基准专题](./benchmarking.md)
 - [Worker 运行治理专题](./worker-runtime-operations.md)

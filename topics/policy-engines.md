@@ -17,5 +17,6 @@
 - [Casbin](../third_party/casbin.md)
 - [认证与授权专题](./auth-authorization.md)
 - [RBAC 与 ABAC 专题](./rbac-abac.md)
+- [策略灰度发布专题](./policy-rollout-strategies.md)
 
 返回 [索引](../README.md)

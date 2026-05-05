@@ -27,6 +27,7 @@
 
 - [搜索系统专题](./search-systems.md)
 - [向量检索专题](./vector-retrieval.md)
+- [混合检索校准专题](./hybrid-retrieval-calibration.md)
 - [RAG 评测专题](./rag-evaluation.md)
 - [Embedding 与 Rerank 专题](./embeddings-reranking.md)
 

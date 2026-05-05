@@ -38,6 +38,7 @@
 - [密钥管理专题](./secrets-management.md)
 - [项目结构专题](./project-structure.md)
 - [运行时配置专题](./runtime-configuration.md)
+- [配置结构校验专题](./config-schema-validation.md)
 - [隐私治理专题](./privacy-governance.md)
 
 返回 [索引](../README.md)
